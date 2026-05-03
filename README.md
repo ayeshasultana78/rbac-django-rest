@@ -18,3 +18,9 @@ A secure backend implementation for managing user access based on organizational
 1. **Authentication**: Verifies user identity via credentials.[cite: 1]
 2. **Identification**: Identifies the assigned Role (Admin/Manager/Employee).[cite: 1]
 3. **Authorization**: Middleware checks if the Role has the required Permission for the requested action.[cite: 1]
+
+## 🤖 Relevance to AI Systems
+In AI-powered applications, secure data handling is critical. This RBAC implementation ensures:
+* **Secure Model Access**: Restricting high-compute AI endpoints to authorized roles.
+* **Data Privacy**: Ensuring only 'Admins' can view or export sensitive training datasets.
+* **Audit Trails**: Providing a structured way to track which roles interacted with the AI backend.
